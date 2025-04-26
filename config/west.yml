@@ -23,7 +23,7 @@ manifest:
     # nice_oled - nice_epaper
     - name: zmk-nice-oled
       remote: kiwikey
-      revision: dev_local
+      revision: dev_testing01
     # dongle_display!view
     - name: zmk-dongle-display-view
       remote: mctechnology17
