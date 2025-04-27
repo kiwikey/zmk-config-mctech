@@ -18,7 +18,7 @@ manifest:
       import: app/west.yml
     # dongle_display
     - name: zmk-dongle-display
-      remote: englmaxi
+      remote: kiwikey
       revision: main
     # nice_oled - nice_epaper
     - name: zmk-nice-oled
