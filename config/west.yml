@@ -19,7 +19,7 @@ manifest:
     # dongle_display
     - name: zmk-dongle-display
       remote: kiwikey
-      revision: main
+      revision: dev_testing01
     # nice_oled - nice_epaper
     - name: zmk-nice-oled
       remote: kiwikey
