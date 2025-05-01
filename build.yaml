@@ -177,6 +177,10 @@ include:
     ### Pro Micro END ###
   ### CORNE END ###
 
+    # shield: corne_left nice_view_adapter nice_epaper
+    # cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Nice_Corne_View\"
+
+
   ### SOFLEV2 SOFLEV1 SOFLEPLUS START ###
   # nice!oled sofle
   - board: nice_nano_v2
@@ -187,7 +191,7 @@ include:
     snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
     # shield: sofle_right nice_oled
-    shield: sofle_left nice_view_adapter nice_epaper
+    shield: sofle_right nice_view_adapter nice_epaper
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: nice_sofle_right_oled
 
