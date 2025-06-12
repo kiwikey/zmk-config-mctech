@@ -1,5 +1,7 @@
 manifest:
+
   remotes:
+    # default ZMK
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     # dongle_display
@@ -11,7 +13,12 @@ manifest:
     # nice_oled - nice_epaper
     - name: kiwikey
       url-base: https://github.com/kiwikey
+    # zmk-raw-hid
+    - name: zzeneg
+      url-base: https://github.com/zzeneg
+
   projects:
+    # default ZMK
     - name: zmk
       remote: zmkfirmware
       revision: main
@@ -28,9 +35,14 @@ manifest:
     - name: zmk-dongle-display-view
       remote: mctechnology17
       revision: main
-    # oled Adapter
+    # oled adapter
     - name: zmk-oled-adapter
       remote: mctechnology17
       revision: main
+    # zmk-raw-hid
+    - name: zmk-raw-hid # <-- new entry
+      remote: zzeneg
+      revision: main
+
   self:
     path: config
