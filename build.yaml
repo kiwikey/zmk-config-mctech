@@ -79,10 +79,10 @@ include:
     # artifact-name: nice_sofle_right_niceview
 
   # peripheral_left_oled
-  - board: nice_nano_v2
-    shield: sofle_left_peripheral nice_oled
-    cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: nice_sofle_left_peripheral_oled
+  # - board: nice_nano_v2
+    # shield: sofle_left_peripheral nice_oled
+    # cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+    # artifact-name: nice_sofle_left_peripheral_oled
     
   # peripheral_left_nice!view
   # - board: nice_nano_v2
