@@ -40,7 +40,7 @@ manifest:
       remote: mctechnology17
       revision: main
     # zmk-raw-hid
-    - name: zmk-raw-hid # <-- new entry
+    - name: zmk-raw-hid
       remote: zzeneg
       revision: main
 
