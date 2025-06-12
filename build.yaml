@@ -102,7 +102,7 @@ include:
     shield: sofle_dongle_pro_micro dongle_display
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"KiwiDongle_OLED\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=n -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: nice_sofle_dongle_oled
-    snippet: studio-rpc-usb-uart
+    snippet: studio-rpc-usb-uart zmk-usb-logging
   ### SOFLEV2 SOFLEV1 SOFLEPLUS END ###
   
 
